@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="Image" src="https://github.com/user-attachments/assets/828245b9-8e0f-4b95-8270-abe703f6f822" />
-</div>
-
 # GeOsint - Aplicación Web
 
 ![Image](https://github.com/user-attachments/assets/ba00f376-0cfd-4266-9588-736f42f26900)
