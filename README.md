@@ -10,6 +10,17 @@ Puedes probar la aplicación en el siguiente enlace:
 
 [https://geosint-web.vercel.app/](https://geosint-web.vercel.app/)
 
+## Capturas de Pantalla
+
+### Escaneo
+![Escaneo](screenshots/pantalla1.jpg)
+
+### Resultados
+![Resultados](screenshots/pantalla2.jpg)
+
+### Informe
+![Informe](screenshots/pantalla3.jpg)
+
 ## Ejecutar Localmente
 
 **Requisitos:** Node.js
