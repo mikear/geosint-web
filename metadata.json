@@ -1,0 +1,5 @@
+{
+  "name": "Copy of GeOsint 2.0",
+  "description": "Una aplicación web que utiliza la IA de Gemini para identificar la ubicación donde se tomó una fotografía. Los usuarios pueden subir una imagen y la aplicación analizará la foto para proporcionar el nombre del lugar y una breve descripción.",
+  "requestFramePermissions": []
+}
