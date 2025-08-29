@@ -4,6 +4,8 @@
 
 # GeOsint - Aplicación Web
 
+![Image](https://github.com/user-attachments/assets/ba00f376-0cfd-4266-9588-736f42f26900)
+
 Este repositorio contiene el código fuente de la aplicación web GeOsint, una herramienta de inteligencia geoespacial.
 
 ## Demo en Vivo
