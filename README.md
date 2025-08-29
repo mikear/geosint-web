@@ -8,7 +8,7 @@ Este repositorio contiene el código fuente de la aplicación web GeOsint, una h
 
 Puedes probar la aplicación en el siguiente enlace:
 
-[https://geosint-web-git-master-diego-alejandro-rabalos-projects.vercel.app/](https://geosint-web-git-master-diego-alejandro-rabalos-projects.vercel.app/)
+[https://geosint-web.vercel.app/](https://geosint-web.vercel.app/)
 
 ## Ejecutar Localmente
 
