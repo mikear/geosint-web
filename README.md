@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="Image" src="https://github.com/user-attachments/assets/dc2eb6d8-2596-4dee-95cb-92ac1436ce65" />
+<img width="1200" height="475" alt="Image" src="https://github.com/user-attachments/assets/828245b9-8e0f-4b95-8270-abe703f6f822" />
 </div>
 
 # GeOsint - Aplicación Web
