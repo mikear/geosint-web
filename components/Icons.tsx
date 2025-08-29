@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const CameraIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
@@ -102,5 +101,11 @@ export const ClipboardDocumentIcon: React.FC<React.SVGProps<SVGSVGElement>> = (p
 export const CheckIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+    </svg>
+);
+
+export const QuestionMarkCircleIconSolid: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm11.378-3.917c-.89-1.42-2.56-1.834-3.979-.944l-.495.35c-.486.343.011.998.487.654l.495-.35c.753-.534 1.645-.372 2.18.372.534.744.372 1.645-.372 2.18l-.35.495c-.343.486.152 1.023.654.487l.35-.495c1.42-.89 1.834-2.56.944-3.979Zm-2.921 8.82c.38.054.757.112 1.134.175.29.048.516.22.618.494a1.08 1.08 0 0 1-.478 1.183.997.997 0 0 1-1.15.02H12a1.001 1.001 0 0 1-.99-1.183c.02-.05.04-.1.06-.149.058-.132.12-.263.19-.394a.997.997 0 0 1 .429-.586c.25-.14.53-.23.82-.285Z" clipRule="evenodd" />
     </svg>
 );

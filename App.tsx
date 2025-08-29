@@ -4,7 +4,7 @@ import exifr from 'exifr';
 import { runFullAnalysis, AnalysisPhase } from './services/backendService';
 import { reverseGeocode, geocodeLocationName } from './services/geolocationService';
 import { AnalysisResult } from './types';
-import { CameraIcon, MagnifyingGlassIcon, XCircleIcon, GitHubIcon, LinkedInIcon, QuestionMarkCircleIcon } from './components/Icons';
+import { CameraIcon, MagnifyingGlassIcon, XCircleIcon, GitHubIcon, LinkedInIcon, QuestionMarkCircleIconSolid } from './components/Icons';
 import ImagePreview from './components/ImagePreview';
 import AnalysisInProgress from './components/AnalysisInProgress';
 import DossierDisplay from './components/DossierDisplay';
@@ -276,7 +276,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                     <button onClick={() => setShowInfoModal(true)} className="p-2 bg-slate-800/50 border border-slate-700 rounded-md hover:bg-slate-700 transition-colors" aria-label="Show info">
-                        <QuestionMarkCircleIcon className="h-5 w-5 text-slate-400" />
+                        <QuestionMarkCircleIconSolid className="h-5 w-5 text-slate-400" />
                     </button>
                     <LanguageSelector selectedLanguage={language} onLanguageChange={setLanguage} />
                 </div>
