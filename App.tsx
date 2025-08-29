@@ -13,6 +13,7 @@ import LanguageSelector from './components/LanguageSelector';
 import InfoModal from './components/InfoModal';
 // FIX: Import TranslationKey type for type safety
 import { Language, getBrowserLanguage, getTranslator, type TranslationKey } from './i18n';
+import { Analytics } from '@vercel/analytics/react';
 
 type AppState = 'initial' | 'analyzing' | 'success' | 'error';
 
@@ -261,6 +262,7 @@ const App: React.FC = () => {
 
     return (
         <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center p-4 sm:p-6 lg:p-8 font-sans">
+            <Analytics />
             {showTermsModal && <TermsOfUseModal onAccept={handleAcceptTerms} t={t} />}
             {showInfoModal && <InfoModal onClose={() => setShowInfoModal(false)} t={t} />}
             <div className="fixed inset-0 bg-grid-pattern opacity-10 -z-10"></div>
