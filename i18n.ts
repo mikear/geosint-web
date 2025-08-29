@@ -505,6 +505,7 @@ const translations = {
         aboutTab: "Sobre",
         helpTab: "Guia de Ajuda",
         techInfoTab: "Informações Técnicas",
+        termsTab: "Termos e Privacidade",
         aboutTitle: "O que é GeOsint?",
         aboutDesc: "GeOsint é uma aplicação web avançada que utiliza a IA Gemini do Google para realizar análises de inteligência geoespacial (GEOINT) em imagens. Foi concebida para identificar o local onde uma foto foi tirada, examinando pistas visuais e, quando disponíveis, metadados EXIF.",
         helpTitle: "Como Usar o GeOsint",

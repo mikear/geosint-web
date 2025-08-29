@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { XCircleIcon } from './Icons';
 
@@ -9,7 +8,7 @@ interface InfoModalProps {
     t: Translator;
 }
 
-type Tab = 'about' | 'help' | 'tech';
+type Tab = 'about' | 'help' | 'tech' | 'terms';
 
 const InfoModal: React.FC<InfoModalProps> = ({ onClose, t }) => {
     const [activeTab, setActiveTab] = useState<Tab>('about');
@@ -53,7 +52,20 @@ const InfoModal: React.FC<InfoModalProps> = ({ onClose, t }) => {
                             <li>{t('techStep2')}</li>
                             <li>{t('techStep3')}</li>
                             <li>{t('techStep4')}</li>
-                            <li><span className="font-bold">{t('techTechnologies')}</span>: {t('techPhase5Desc')}</li>
+                            <li>{t('techTechnologies')}</li>
+                        </ul>
+                        <h4 className="font-bold text-slate-200 mt-6 mb-2">{t('techTechnologiesTitle')}</h4>
+                        <p className="text-sm text-slate-400 font-sans">{t('techTechnologiesList')}</p>
+                    </div>
+                );
+            case 'terms':
+                return (
+                    <div>
+                        <h3 className="text-xl font-bold text-cyan-300 mb-2 font-header">{t('termsTitle')}</h3>
+                        <h4 className="font-bold text-slate-200 mt-4 mb-1">{t('termsResponsibleUse')}</h4>
+                        <p className="text-sm text-slate-400 font-sans">{t('termsResponsibleUseDesc')}</p>
+                        <h4 className="font-bold text-slate-200 mt-4 mb-1">{t('termsPrivacy')}</h4>
+                        <p className="text-sm text-slate-400 font-sans">{t('termsPrivacyDesc')}</p>
                     </div>
                 );
         }
@@ -88,6 +100,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ onClose, t }) => {
                             <TabButton tab="about" label={t('aboutTab')} />
                             <TabButton tab="help" label={t('helpTab')} />
                             <TabButton tab="tech" label={t('techInfoTab')} />
+                            <TabButton tab="terms" label={t('termsTab')} />
                         </nav>
                     </div>
 
