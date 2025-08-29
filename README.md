@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# GeOsint - Aplicación Web
 
-# Run and deploy your AI Studio app
+![Image](https://github.com/user-attachments/assets/ba00f376-0cfd-4266-9588-736f42f26900)
 
-This contains everything you need to run your app locally.
+Este repositorio contiene el código fuente de la aplicación web GeOsint, una herramienta de inteligencia geoespacial.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1K3S3gkxLebv_oG51sF50A07yCmiW0czC
+## Demo en Vivo
 
-## Run Locally
+Puedes probar la aplicación en el siguiente enlace:
 
-**Prerequisites:**  Node.js
+[https://geosint-web-git-master-diego-alejandro-rabalos-projects.vercel.app/](https://geosint-web-git-master-diego-alejandro-rabalos-projects.vercel.app/)
 
+## Ejecutar Localmente
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Requisitos:** Node.js
+
+1.  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
+2.  **Configurar la clave de API:**
+    Crea un archivo `.env.local` en la raíz del proyecto y añade tu clave de API de Gemini:
+    ```
+    GEMINI_API_KEY=TU_API_KEY_AQUI
+    ```
+3.  **Ejecutar la aplicación:**
+    ```bash
+    npm run dev
+    ```
+
+## Autor
+
+*   **mikear**
