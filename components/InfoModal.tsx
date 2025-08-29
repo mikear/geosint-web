@@ -54,9 +54,6 @@ const InfoModal: React.FC<InfoModalProps> = ({ onClose, t }) => {
                             <li>{t('techStep3')}</li>
                             <li>{t('techStep4')}</li>
                             <li><span className="font-bold">{t('techTechnologies')}</span>: {t('techPhase5Desc')}</li>
-                        </ul>
-                        <h4 className="font-bold text-slate-200 mt-6 mb-2">Tecnologías Utilizadas</h4>
-                        <p className="text-sm text-slate-400 font-sans">Google Gemini, React, TypeScript, TailwindCSS, OpenStreetMap</p>
                     </div>
                 );
         }

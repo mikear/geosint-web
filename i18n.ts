@@ -520,7 +520,10 @@ const translations = {
         techStep2: "Fase 2: Análise Visual Profunda por IA. Um modelo de visão multimodal (Google Gemini) analisa marcos, arquitetura, flora, clima, infraestrutura e texto.",
         techStep3: "Fase 3: Geração e Verificação de Hipóteses. A IA gera hipóteses de localização e as cruza com os resultados da pesquisa na web.",
         techStep4: "Fase 4: Síntese e Pontuação de Confiança. Todos os dados são consolidados em um relatório final com uma pontuação de confiança baseada nas evidências.",
-        techTechnologies: "Fase 5: Detecção de Discrepâncias. Os dados GPS do EXIF são comparados com a estimativa da IA para alertar o usuário sobre inconsistências.",
+        techTechnologies: "Fase 5: Detecção de Discrepâncias",
+        techPhase5Desc: "Os dados GPS do EXIF são comparados com a estimativa da IA para alertar o usuário sobre inconsistências.",
+        techTechnologiesTitle: "Tecnologias Utilizadas",
+        techTechnologiesList: "Google Gemini, React, TypeScript, TailwindCSS, OpenStreetMap",
         // Analysis Phases
         phaseInitialization: "Inicializando a análise...",
         phaseFeatureExtraction: "Extraindo pistas visuais...",
